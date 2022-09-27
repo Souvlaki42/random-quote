@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Gloria+Hallelujah&family=Nothing+You+Could+Do&family=Pacifico&family=Petit+Formal+Script&family=Sacramento&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+  background-color: #14141a;
+  color: #ffffff;
+}
+
+.root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#actualText {
+  width: fit-content;
+  height: fit-content;
+  font-size: 3.5rem;
+  font-weight: bold;
+  cursor: default;
+  transition: 0.4s ease;
+  text-align: center;
+}
+
+@media screen and (max-height: 700px) and (max-width: 1200px) {
+  #actualText {
+    font-size: 2rem;
+  }
+}
